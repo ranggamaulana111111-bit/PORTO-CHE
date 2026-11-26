@@ -833,6 +833,11 @@ function initCommandPalette() {
 			action: () => window.open("https://rmrw.my.id/cv.html", "_blank")
 		},
 		{
+			label: "Pengumpulan",
+			type: "Aksi",
+			action: () => window.open("https://github.com/ranggamaulana111111-bit/PORTO-CHE.git", "_blank")
+		},
+		{
 			label: "Salin Email",
 			type: "Aksi",
 			action: () => copyText(site.email, $("#copy-email"))
